@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mcpserver-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mcp-server/target/mcpserver-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
