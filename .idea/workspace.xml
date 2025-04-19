@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5e733f0-0758-4ce0-abee-af1342101541" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/org/example/mcpserver/pojo/WeatherPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/org/example/mcpserver/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mcpserver_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/java/org/example/mcpclient/McpClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/org/example/mcpclient/McpClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/java/org/example/mcpclient/config/ChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/org/example/mcpclient/config/ChatClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/resources/mcp-servers-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-servers-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpclient/src/test/java/org/example/mcpclient/McpClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/test/java/org/example/mcpclient/McpClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/java/org/example/mcpserver/McpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/java/org/example/mcpserver/McpServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/java/org/example/mcpserver/pojo/WeatherPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server-sse/src/main/java/org/example/mcpserversse/pojo/WeatherPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/java/org/example/mcpserver/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server-sse/src/main/java/org/example/mcpserversse/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/src/test/java/org/example/mcpserver/McpServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/test/java/org/example/mcpserver/McpServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vocal-map&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vocal-map/mcplearn.git&quot;,
+    &quot;accountId&quot;: &quot;ced91ff1-ae4e-4198-a589-373999ac61d8&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.8.8" />
+        <option name="localRepository" value="D:\Documents\LocalRepository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vwt6OKbYzo7paIUNNkWuWPt2Af" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.mcp-server [clean].executor": "Run",
+    "Maven.mcp-server [package].executor": "Run",
+    "Maven.mcpserver [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents/IdeaProjects/mcplearn/mcp-server-sse/src/main/java/org/example/mcpserversse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\IdeaProjects\mcplearn\mcp-server-sse\src\main\java\org\example\mcpserversse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\IdeaProjects\mcplearn" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.McpServerSseApplication">
+    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mcp-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.mcpclient.McpClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mcp-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.mcpserver.McpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerSseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mcp-server-sse" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.mcpserversse.McpServerSseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5e733f0-0758-4ce0-abee-af1342101541" name="Changes" comment="" />
+      <created>1698507841268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698507841268</updated>
+      <workItem from="1745067791135" duration="143000" />
+      <workItem from="1745068267360" duration="428000" />
+      <workItem from="1745068699816" duration="1232000" />
+      <workItem from="1745069939825" duration="202000" />
+      <workItem from="1745070145526" duration="10000" />
+      <workItem from="1745070166484" duration="50000" />
+      <workItem from="1745070330312" duration="789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/mcpserver" />
+    </ignored-roots>
+  </component>
+</project>

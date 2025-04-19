@@ -10,7 +10,7 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>mcpclient</artifactId>
+    <artifactId>mcp-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mcp-client</name>
 
@@ -38,11 +38,6 @@
             <artifactId>spring-ai-starter-mcp-client</artifactId>
         </dependency>
 
-        <!-- <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-model-openai</artifactId>
-        </dependency> -->
-
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-model-ollama</artifactId>
@@ -50,14 +45,7 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 
     <repositories>
         <repository>

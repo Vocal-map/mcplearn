@@ -17,8 +17,9 @@
     <packaging>pom</packaging>
     
     <modules>
-        <module>mcpclient</module>
-        <module>mcpserver</module>
+        <module>mcp-client</module>
+        <module>mcp-server</module>
+        <module>mcp-server-sse</module>
     </modules>
 
 </project>
