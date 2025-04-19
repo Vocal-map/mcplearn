@@ -4,39 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5e733f0-0758-4ce0-abee-af1342101541" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/org/example/mcpserver/pojo/WeatherPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/org/example/mcpserver/service/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mcpserver_0_0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/java/org/example/mcpclient/McpClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/org/example/mcpclient/McpClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/java/org/example/mcpclient/config/ChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/org/example/mcpclient/config/ChatClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/src/main/resources/mcp-servers-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-servers-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpclient/src/test/java/org/example/mcpclient/McpClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/test/java/org/example/mcpclient/McpClientApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/java/org/example/mcpserver/McpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/java/org/example/mcpserver/McpServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/java/org/example/mcpserver/pojo/WeatherPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server-sse/src/main/java/org/example/mcpserversse/pojo/WeatherPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/java/org/example/mcpserver/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server-sse/src/main/java/org/example/mcpserversse/service/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcpserver/src/test/java/org/example/mcpserver/McpServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/test/java/org/example/mcpserver/McpServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e5e733f0-0758-4ce0-abee-af1342101541" name="Changes" comment="实现MCP Client；MCP Server STDIO以及MCP Server SSE">
+      <change afterPath="$PROJECT_DIR$/mcp-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server-sse/src/main/java/org/example/mcpserversse/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server-sse/src/main/java/org/example/mcpserversse/service/WeatherService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +73,13 @@
     "Maven.mcp-server [clean].executor": "Run",
     "Maven.mcp-server [package].executor": "Run",
     "Maven.mcpserver [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.McpServerSseApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Documents/IdeaProjects/mcplearn/mcp-server-sse/src/main/java/org/example/mcpserversse",
@@ -179,8 +159,17 @@
       <workItem from="1745069939825" duration="202000" />
       <workItem from="1745070145526" duration="10000" />
       <workItem from="1745070166484" duration="50000" />
-      <workItem from="1745070330312" duration="789000" />
+      <workItem from="1745070330312" duration="3072000" />
     </task>
+    <task id="LOCAL-00001" summary="实现MCP Client；MCP Server STDIO以及MCP Server SSE">
+      <option name="closed" value="true" />
+      <created>1745073523664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745073523664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +190,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mcpserver" />
     </ignored-roots>
+    <MESSAGE value="实现MCP Client；MCP Server STDIO以及MCP Server SSE" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现MCP Client；MCP Server STDIO以及MCP Server SSE" />
   </component>
 </project>

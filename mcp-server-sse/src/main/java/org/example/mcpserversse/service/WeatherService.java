@@ -34,22 +34,19 @@ public class WeatherService {
             @ToolParam(description = "城市") String city
     ) throws UnsupportedEncodingException {
 
-        byte[] bytes = city.getBytes("GBK");
-        String u8City = new String(bytes, StandardCharsets.UTF_8);
-
         String apiKey = "fc20e2e64ab83128c565216b477a9e2f";
         RestClient.ResponseSpec retrieve = this.restClient.get()
-                .uri("?key=" + apiKey + "&city=" + u8City)
+                .uri("?key=" + apiKey + "&city=" + city)
                 .retrieve();
         WeatherPojo body = retrieve.body(WeatherPojo.class);
         try {
             return String.format(RESPONSE_TEMPLATE,
-                    u8City,
+                    city,
                     body.getResult().getRealtime().getInfo(),
                     body.getResult().getRealtime().getTemperature()
             );
         } catch (NullPointerException e) {
-            return "抱歉，我无法获取到" + u8City + "的天气信息";
+            return "抱歉，我无法获取到" + city + "的天气信息";
         }
     }
 }
